@@ -1,0 +1,4 @@
+n=int(input())
+k="{:032b}".format(n)
+s=k[::-1]
+print(int(s,2))
