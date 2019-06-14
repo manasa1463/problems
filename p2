@@ -1,0 +1,11 @@
+def fibnocii(n):  
+    if n<=1:
+        return n
+    else :
+        return (fibnocii(n-1)+fibnocii(n-2))
+n=int(input())
+if n<=0:
+    print("enter a positive number")
+else:
+    for i in range(n):
+        print(fibnocii(i))
